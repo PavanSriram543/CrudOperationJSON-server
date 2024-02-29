@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "name": "Kit Harington",
+      "gender": "Male",
+      "house": "Starks",
+      "id": "35fa"
+    },
+    {
+      "name": "Emilia Clarke",
+      "gender": "Female",
+      "house": "Targaryens",
+      "id": "8c5b"
+    },
+    {
+      "name": "Peter Dinklage",
+      "gender": "Male",
+      "house": "Lanisters",
+      "id": "f73d"
+    },
+    {
+      "id": "sss",
+      "name": "pavankumarsriram1@gmail.com",
+      "house": "sss"
+    }
+  ]
+}
