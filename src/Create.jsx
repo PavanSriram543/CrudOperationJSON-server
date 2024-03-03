@@ -6,7 +6,7 @@ function Create() {
   const [values, setValues] = useState({
     name: "",
     house: "",
-    id: "",
+    gender: "",
   });
   const navigate = useNavigate();
   const handleSubmit = (e) => {
@@ -51,14 +51,14 @@ function Create() {
           </div>{" "}
           <div className="mb-3">
             <label htmlFor="exampleInputPassword3" className="form-label">
-              ID
+              gender
             </label>
             <input
               type="text"
               className="form-control"
               id="exampleInputPassword3"
-              value={values.id}
-              onChange={(e) => setValues({ ...values, id: e.target.value })}
+              value={values.gender}
+              onChange={(e) => setValues({ ...values, gender: e.target.value })}
             />
           </div>
           <button type="submit" className="btn btn-primary me-2">
